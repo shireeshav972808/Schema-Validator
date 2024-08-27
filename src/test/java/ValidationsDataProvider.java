@@ -7,6 +7,6 @@ import java.nio.file.Paths;
 public class ValidationsDataProvider {
     @DataProvider
     public Object[][] filePaths() throws IOException {
-        return new Object[][]{{"C:\\Users\\ShireeshaV\\automation\\SchemaValidator\\src\\test\\resources\\input.json","C:\\Users\\ShireeshaV\\automation\\SchemaValidator\\src\\test\\resources\\Transaction_File.csv"}};
+        return new Object[][]{{"src/test/resources/testData/input.json","src/test/resources/testData/Transaction_File.csv"}};
     }
 }
