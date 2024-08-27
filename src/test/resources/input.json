@@ -1,0 +1,15 @@
+{
+  "Account_ID": {
+    "NON_NULL": "TRUE",
+    "UNIQUE": "TRUE"
+  },
+  "TXN_ID": {
+    "LENGTH": "TRUE",
+    "NON_NULL": "TRUE"
+  },
+  "Authorized": {
+    "NON_NULL": "TRUE",
+    "BOOLEAN": "TRUE"
+  }
+
+}

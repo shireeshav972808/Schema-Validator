@@ -1,0 +1,4 @@
+Account_ID,TXN_ID,Authorized,zipCode
+1,123456,TRUE,
+1,234567,TRUE,
+3,345678,FALSE,
