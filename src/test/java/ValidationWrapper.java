@@ -20,6 +20,7 @@ public class ValidationWrapper {
             for (String newKey: newJsonObject.keySet()
             ) {
                 if(newKey.equalsIgnoreCase(SchemaValidator.LENGTH.name())){
+                    SchemaValidator.LENGTH.setLength(newJsonObject.getInt(newKey));
                     SchemaValidator validator = SchemaValidator.LENGTH;
                         validator.validate(columnData);
 

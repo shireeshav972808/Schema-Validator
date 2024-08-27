@@ -4,7 +4,7 @@
     "UNIQUE": "TRUE"
   },
   "TXN_ID": {
-    "LENGTH": "TRUE",
+    "LENGTH": 6,
     "NON_NULL": "TRUE"
   },
   "Authorized": {
