@@ -1,4 +1,4 @@
-Account_ID,TXN_ID,Authorized,zipCode
-1,123456,TRUE,
+Account_ID,Txn_ID,Authorized,Zip_Code
+1,,TRUE,
 1,234567,TRUE,
-3,345678,FALSE,
+3,345678,hi,

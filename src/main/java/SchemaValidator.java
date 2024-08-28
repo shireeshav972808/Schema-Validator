@@ -1,3 +1,6 @@
+
+import org.testng.Reporter;
+
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
@@ -54,6 +57,7 @@ public enum SchemaValidator {
 
                 if( valueSet.size() != fileData.size()){
                     System.out.println("values aren't unique");
+                    Reporter.log("values aren't unique");
                 }
 
             System.out.println("Unique_Validation_Ended");

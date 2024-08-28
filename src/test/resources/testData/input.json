@@ -3,8 +3,8 @@
     "NON_NULL": "TRUE",
     "UNIQUE": "TRUE"
   },
-  "TXN_ID": {
-    "LENGTH": 6,
+  "Txn_ID": {
+    "LENGTH": 5,
     "NON_NULL": "TRUE"
   },
   "Authorized": {
